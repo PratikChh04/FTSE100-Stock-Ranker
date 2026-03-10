@@ -51,5 +51,8 @@ Stocks are ranked using a **composite scoring model** based on:
 - Total Return (higher is better)
 - Volatility (lower is better)
 
-Each metric is standardised using **z-scores**, and the final ranking score is calculated as: score = return_zscore - volatility_zscore
+Each metric is standardised using **z-scores**, and the final ranking score is calculated as: 
+
+score = return_zscore - volatility_zscore
+
 Stocks with **high returns and lower volatility** receive the highest rankings.
